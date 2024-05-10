@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="dates.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="header_text">OmGEEE!! hehe</h1>
+        </div>
+        <div class="gif_container">
+            <img src="https://i.pinimg.com/564x/ac/71/3c/ac713c173d99c5e373ca549ea73f08cf.jpg" alt="Cute animated illustration" width="50%">
+        </div>
+        <p class="subtext">Choose a date option!</p>
+    </div>
+    
+    <div class="buttons">
+        <button class="btn" id="date1Button" onclick="nextPage()">Date Location 1</button>
+        <button class="btn" id="date2Button" onclick="nextPage2()">Date Location 2</button>
+        <button class="btn" id="date3Button" onclick="nextPage3()">Date 3</button>
+    </div>
+
+    <script>
+        function nextPage() {
+            window.location.href = "date1.html";
+        }
+
+        function nextPage2() {
+            window.location.href = "date2.html";
+        }
+
+        function nextPage3() {
+            console.log("Navigating to date3");
+            window.location.href = "date3.html";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="dates.css">
+    <style>
+        /* Additional CSS styles to limit the width of gif_container */
+        .gif_container {
+            max-width: 100%;
+            margin: 0 auto; /* Center the container horizontally */
+        }
+    </style>
+</head> 
+<body>
+    <div class="container">
+        <div>
+            <h1 class="header_text" style="font-size: 1.5em; font-family: sans-serif;">You Chose: Puro, Legazpi</h1>
+        </div>
+        <div class="gif_container_date2" style="text-align: center;">
+            <img src="https://i.pinimg.com/564x/a4/c0/ce/a4c0ced23a04fe4cd56bf078f9ed9316.jpg" alt="Cute animated illustration">
+        </div>
+        <p class="subtext" style="font-family: sans-serif;">Eyaa, my heart is filled with anticipation and excitement <br> for that day we will spend together at Mayon and by the sea</p>
+        <div class="buttons">
+            <button class="btn" id="date1Button" onclick="nextPage()">Choose Another Option</button>
+            <button class="btn" id="date2Button" onclick="moveButton()">Confirm</button>
+        </div>
+    </div>
+    <script>
+        function nextPage() {
+            window.location.href = "yippie.html";
+        }
+        
+        function moveButton() {
+            window.location.href = "confirm.html";
+        }
+    </script>
+</body> 
+</html>
